@@ -1,0 +1,6 @@
+python
+import sys
+sys.path.insert(0, '/__w/_temp/workspace/output/HOST-x86_64-w64-mingw32/aarch64-zephyr-elf/share/gcc-12.2.0/python')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
