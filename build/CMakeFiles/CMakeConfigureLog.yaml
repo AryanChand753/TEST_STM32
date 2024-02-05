@@ -1,0 +1,1489 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      The target system is: Generic - 3.5.99 - arm
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.exe: c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x34): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/3.27.9/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.exe: c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x34): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/3.27.9/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-zephyr-eabi-gcc.exe (Zephyr SDK 0.16.5) 12.2.0
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/kernel.cmake:144 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-1r9ozz"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-1r9ozz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-1r9ozz'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_fb482
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -o CMakeFiles/cmTC_fb482.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-1r9ozz/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_fb482.dir/src.c.obj -o cmTC_fb482   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2274 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/linker/linker_flags_template.cmake:11 (check_set_linker_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:37 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9lvo5y"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9lvo5y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9lvo5y'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_4b295
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0_  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -o CMakeFiles/cmTC_4b295.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9lvo5y/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_4b295.dir/src.c.obj -o cmTC_4b295   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:32 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-amie76"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-amie76"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wall_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-amie76'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_baac8
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wall_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wall -o CMakeFiles/cmTC_baac8.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-amie76/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_baac8.dir/src.c.obj -o cmTC_baac8   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:32 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-s6mh6u"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-s6mh6u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-s6mh6u'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_9663d
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wformat -Wformat-security -o CMakeFiles/cmTC_9663d.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-s6mh6u/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_9663d.dir/src.c.obj -o cmTC_9663d   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:32 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-4nz9uu"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-4nz9uu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-4nz9uu'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_117b2
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wformat -Wformat-zero-length -o CMakeFiles/cmTC_117b2.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-4nz9uu/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_117b2.dir/src.c.obj -o cmTC_117b2   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:39 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-fng021"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-fng021"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-fng021'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_5e33a
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wdouble-promotion -o CMakeFiles/cmTC_5e33a.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-fng021/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_5e33a.dir/src.c.obj -o cmTC_5e33a   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:41 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9ncoep"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9ncoep"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpointer_sign_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9ncoep'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_33b32
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wpointer_sign_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wpointer-sign -o CMakeFiles/cmTC_33b32.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9ncoep/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_33b32.dir/src.c.obj -o cmTC_33b32   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:44 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-2hl5xw"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-2hl5xw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpointer_arith_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-2hl5xw'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_a160f
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wpointer_arith_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wpointer-arith -o CMakeFiles/cmTC_a160f.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-2hl5xw/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_a160f.dir/src.c.obj -o cmTC_a160f   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:47 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xfzo08"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xfzo08"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xfzo08'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_c749b
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wexpansion-to-defined -o CMakeFiles/cmTC_c749b.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xfzo08/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_c749b.dir/src.c.obj -o cmTC_c749b   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:57 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-y487vs"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-y487vs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wlogical_op_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-y487vs'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_0d936
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wlogical_op_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wlogical-op -o CMakeFiles/cmTC_0d936.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-y487vs/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_0d936.dir/src.c.obj -o cmTC_0d936   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:57 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-s3f6i3"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-s3f6i3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-s3f6i3'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_f5271
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wmissing-field-initializers -o CMakeFiles/cmTC_f5271.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-s3f6i3/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_f5271.dir/src.c.obj -o cmTC_f5271   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:72 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-a16w31"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-a16w31"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-a16w31'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_09fe0
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wpacked-bitfield-compat -o CMakeFiles/cmTC_09fe0.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-a16w31/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_09fe0.dir/src.c.obj -o cmTC_09fe0   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:72 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-j40ke6"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-j40ke6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wvla_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-j40ke6'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_183a1
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wvla_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wvla -o CMakeFiles/cmTC_183a1.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-j40ke6/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_183a1.dir/src.c.obj -o cmTC_183a1   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:91 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-5u9hzk"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-5u9hzk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-5u9hzk'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_1d1d1
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wunused-but-set-variable -o CMakeFiles/cmTC_1d1d1.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-5u9hzk/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_1d1d1.dir/src.c.obj -o cmTC_1d1d1   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:93 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-qzoo1k"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-qzoo1k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-qzoo1k'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_9e900
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Werror=implicit-int -o CMakeFiles/cmTC_9e900.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-qzoo1k/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_9e900.dir/src.c.obj -o cmTC_9e900   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:172 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cojzk3"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cojzk3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cojzk3'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_75f19
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -mstack-protector-guard=global -o CMakeFiles/cmTC_75f19.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cojzk3/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_75f19.dir/src.c.obj -o cmTC_75f19   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:187 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-8p3455"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-8p3455"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_freestanding_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-8p3455'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_1b04c
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_freestanding_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fno-freestanding -o CMakeFiles/cmTC_1b04c.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-8p3455/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_1b04c.dir/src.c.obj -o cmTC_1b04c   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:190 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xhrswd"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xhrswd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ffreestanding_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xhrswd'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_ebf58
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_ffreestanding_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -ffreestanding -o CMakeFiles/cmTC_ebf58.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xhrswd/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_ebf58.dir/src.c.obj -o cmTC_ebf58   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2350 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/compiler/gcc/compiler_flags.cmake:206 (check_set_compiler_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-3hy2dq"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-3hy2dq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_gdwarf_4_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-3hy2dq'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_1a420
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_gdwarf_4_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -gdwarf-4 -o CMakeFiles/cmTC_1a420.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-3hy2dq/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_1a420.dir/src.c.obj -o cmTC_1a420   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2274 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/linker/ld/linker_flags.cmake:1 (check_set_linker_property)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-yrv3qn"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-yrv3qn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___print_memory_usage"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-yrv3qn'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_3dac5
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___print_memory_usage  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--print-memory-usage -o CMakeFiles/cmTC_3dac5.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-yrv3qn/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--print-memory-usage  CMakeFiles/cmTC_3dac5.dir/src.c.obj -o cmTC_3dac5   && cd ."
+        Memory region         Used Size  Region Size  %age Used\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2274 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/linker/ld/gcc/linker_flags.cmake:10 (check_set_linker_property)"
+      - "zephyr/cmake/linker/ld/linker_flags.cmake:22 (include)"
+      - "zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-orjjoz"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-orjjoz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__pg"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-orjjoz'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_bd3ce
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__pg  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -pg -o CMakeFiles/cmTC_bd3ce.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-orjjoz/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -pg  CMakeFiles/cmTC_bd3ce.dir/src.c.obj -o cmTC_bd3ce   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/linker/ld/target_base.cmake:13 (zephyr_ld_options)"
+      - "zephyr/CMakeLists.txt:335 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-4yu6ho"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-4yu6ho"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mcpu_cortex_m3__mthumb__mabi_aapcs__mfp16_format_ieee__mtp_soft"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-4yu6ho'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_a0044
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mcpu_cortex_m3__mthumb__mabi_aapcs__mfp16_format_ieee__mtp_soft  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -mcpu=cortex-m3 -mthumb -mabi=aapcs -mfp16-format=ieee -mtp=soft -o CMakeFiles/cmTC_a0044.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-4yu6ho/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -mcpu=cortex-m3 -mthumb -mabi=aapcs -mfp16-format=ieee -mtp=soft  CMakeFiles/cmTC_a0044.dir/src.c.obj -o cmTC_a0044   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/linker/ld/target_base.cmake:17 (zephyr_ld_options)"
+      - "zephyr/CMakeLists.txt:335 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-r2ntz3"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-r2ntz3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___gc_sections"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-r2ntz3'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_5dc19
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___gc_sections  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--gc-sections -o CMakeFiles/cmTC_5dc19.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-r2ntz3/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--gc-sections  CMakeFiles/cmTC_5dc19.dir/src.c.obj -o cmTC_5dc19   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/linker/ld/target_base.cmake:17 (zephyr_ld_options)"
+      - "zephyr/CMakeLists.txt:335 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9e5ahm"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9e5ahm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___build_id_none"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9e5ahm'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_2ed3a
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___build_id_none  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--build-id=none -o CMakeFiles/cmTC_2ed3a.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9e5ahm/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--build-id=none  CMakeFiles/cmTC_2ed3a.dir/src.c.obj -o cmTC_2ed3a   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/modules/extensions.cmake:1871 (zephyr_ld_options)"
+      - "zephyr/cmake/linker/ld/target_base.cmake:24 (zephyr_ld_option_ifdef)"
+      - "zephyr/CMakeLists.txt:335 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-1mankl"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-1mankl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_common_descending"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-1mankl'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_7b186
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_common_descending  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--sort-common=descending -o CMakeFiles/cmTC_7b186.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-1mankl/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--sort-common=descending  CMakeFiles/cmTC_7b186.dir/src.c.obj -o cmTC_7b186   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/modules/extensions.cmake:1871 (zephyr_ld_options)"
+      - "zephyr/cmake/linker/ld/target_base.cmake:24 (zephyr_ld_option_ifdef)"
+      - "zephyr/CMakeLists.txt:335 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-a3zrpl"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-a3zrpl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_section_alignment"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-a3zrpl'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_7fa15
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_section_alignment  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--sort-section=alignment -o CMakeFiles/cmTC_7fa15.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-a3zrpl/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--sort-section=alignment  CMakeFiles/cmTC_7fa15.dir/src.c.obj -o cmTC_7fa15   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/linker/ld/target_baremetal.cmake:8 (zephyr_ld_options)"
+      - "zephyr/CMakeLists.txt:344 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-vtjb78"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-vtjb78"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__nostdlib"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-vtjb78'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_b1bc1
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__nostdlib  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -nostdlib -o CMakeFiles/cmTC_b1bc1.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-vtjb78/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -nostdlib  CMakeFiles/cmTC_b1bc1.dir/src.c.obj -o cmTC_b1bc1   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/linker/ld/target_baremetal.cmake:8 (zephyr_ld_options)"
+      - "zephyr/CMakeLists.txt:344 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-kfz3hh"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-kfz3hh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__static"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-kfz3hh'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_225df
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__static  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -static -o CMakeFiles/cmTC_225df.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-kfz3hh/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -static  CMakeFiles/cmTC_225df.dir/src.c.obj -o cmTC_225df   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/linker/ld/target_baremetal.cmake:8 (zephyr_ld_options)"
+      - "zephyr/CMakeLists.txt:344 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-nvwtq6"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-nvwtq6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__X"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-nvwtq6'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_9225b
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__X  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,-X -o CMakeFiles/cmTC_9225b.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-nvwtq6/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,-X  CMakeFiles/cmTC_9225b.dir/src.c.obj -o cmTC_9225b   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/linker/ld/target_baremetal.cmake:8 (zephyr_ld_options)"
+      - "zephyr/CMakeLists.txt:344 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xmm9wi"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xmm9wi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__N"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xmm9wi'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_f6f6c
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__N  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,-N -o CMakeFiles/cmTC_f6f6c.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xmm9wi/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,-N  CMakeFiles/cmTC_f6f6c.dir/src.c.obj -o cmTC_f6f6c   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2189 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:132 (target_ld_options)"
+      - "zephyr/cmake/linker/ld/target_baremetal.cmake:30 (zephyr_ld_options)"
+      - "zephyr/CMakeLists.txt:344 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-mn6x7b"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-mn6x7b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___orphan_handling_warn"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-mn6x7b'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_64fe4
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___orphan_handling_warn  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--orphan-handling=warn -o CMakeFiles/cmTC_64fe4.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-mn6x7b/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--orphan-handling=warn  CMakeFiles/cmTC_64fe4.dir/src.c.obj -o cmTC_64fe4   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/CMakeLists.txt:401 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cf3ro3"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cf3ro3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cf3ro3'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_9aa62
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fno-asynchronous-unwind-tables -o CMakeFiles/cmTC_9aa62.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cf3ro3/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_9aa62.dir/src.c.obj -o cmTC_9aa62   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/CMakeLists.txt:409 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-bmx1r5"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-bmx1r5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-bmx1r5'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_4113f
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -ftls-model=local-exec -o CMakeFiles/cmTC_4113f.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-bmx1r5/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_4113f.dir/src.c.obj -o cmTC_4113f   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/CMakeLists.txt:429 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-314yrw"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-314yrw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-314yrw'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_3ac24
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fno-reorder-functions -o CMakeFiles/cmTC_3ac24.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-314yrw/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_3ac24.dir/src.c.obj -o cmTC_3ac24   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/CMakeLists.txt:436 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9cwo8h"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9cwo8h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9cwo8h'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_7c0f8
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   --param=min-pagesize=0 -o CMakeFiles/cmTC_7c0f8.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-9cwo8h/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_7c0f8.dir/src.c.obj -o cmTC_7c0f8   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/CMakeLists.txt:439 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-5tecfq"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-5tecfq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_defer_pop_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-5tecfq'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_3b291
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fno_defer_pop_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fno-defer-pop -o CMakeFiles/cmTC_3b291.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-5tecfq/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_3b291.dir/src.c.obj -o cmTC_3b291   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/CMakeLists.txt:458 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-ctrcu5"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-ctrcu5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_C__Users_aryan_OneDrive_Desktop_FRL_Avionics_TEST_STM32_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-ctrcu5'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_b3991
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fmacro_prefix_map_C__Users_aryan_OneDrive_Desktop_FRL_Avionics_TEST_STM32_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fmacro-prefix-map=C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_b3991.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-ctrcu5/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_b3991.dir/src.c.obj -o cmTC_b3991   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/CMakeLists.txt:459 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xfpunp"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xfpunp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_C__Users_aryan_OneDrive_Desktop_FRL_Avionics_TEST_STM32_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xfpunp'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_f6ffb
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fmacro_prefix_map_C__Users_aryan_OneDrive_Desktop_FRL_Avionics_TEST_STM32_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fmacro-prefix-map=C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr=ZEPHYR_BASE -o CMakeFiles/cmTC_f6ffb.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-xfpunp/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_f6ffb.dir/src.c.obj -o cmTC_f6ffb   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/CMakeLists.txt:461 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cfsh5m"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cfsh5m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_C__Users_aryan_OneDrive_Desktop_FRL_Avionics_TEST_STM32_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cfsh5m'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_5562d
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fmacro_prefix_map_C__Users_aryan_OneDrive_Desktop_FRL_Avionics_TEST_STM32_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fmacro-prefix-map=C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32=WEST_TOPDIR -o CMakeFiles/cmTC_5562d.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-cfsh5m/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_5562d.dir/src.c.obj -o cmTC_5562d   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/arch/common/CMakeLists.txt:35 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-x1y76c"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-x1y76c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ffunction_sections_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-x1y76c'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_218e4
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_ffunction_sections_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -ffunction-sections -o CMakeFiles/cmTC_218e4.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-x1y76c/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_218e4.dir/src.c.obj -o cmTC_218e4   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2128 (check_c_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:1100 (check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2167 (zephyr_check_compiler_flag)"
+      - "zephyr/cmake/modules/extensions.cmake:2143 (target_cc_option_fallback)"
+      - "zephyr/cmake/modules/extensions.cmake:123 (target_cc_option)"
+      - "zephyr/arch/common/CMakeLists.txt:35 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-t2jk8f"
+      binary: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-t2jk8f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fdata_sections_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-t2jk8f'
+        
+        Run Build Command(s): C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/venv/Scripts/ninja.exe -v cmTC_f73ae
+        [1/2] C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -Dcheck_fdata_sections_C__nostartfiles__nostdlib__isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__users_aryan_onedrive_desktop_frl_avionics_test_stm32_zephyr_sdk_0_16_5_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fdata-sections -o CMakeFiles/cmTC_f73ae.dir/src.c.obj -c C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/build/CMakeFiles/CMakeScratch/TryCompile-t2jk8f/src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\aryan\\OneDrive\\Desktop\\FRL\\Avionics\\TEST_STM32\\zephyr-sdk-0.16.5\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include" -isystem "c:/users/aryan/onedrive/desktop/frl/avionics/test_stm32/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_f73ae.dir/src.c.obj -o cmTC_f73ae   && cd ."
+        
+      exitCode: 0
+...

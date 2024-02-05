@@ -1,0 +1,1 @@
+"mcuboot":"C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/bootloader/mcuboot":"C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/bootloader/mcuboot/boot/zephyr/sysbuild"

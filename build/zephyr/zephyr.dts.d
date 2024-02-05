@@ -1,0 +1,26 @@
+empty_file.o: \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/misc/empty_file.c \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/boards/arm/stm32_min_dev/stm32_min_dev_blue.dts \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/boards/arm/stm32_min_dev/stm32_min_dev.dtsi \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/dts/arm/st/f1/stm32f103X8.dtsi \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/dts/common/mem.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/dts/arm/st/f1/stm32f1.dtsi \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/dts/arm/armv7-m.dtsi \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/dts/common/skeleton.dtsi \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/clock/stm32f1_clock.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/clock/stm32_common_clocks.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/pwm/stm32_pwm.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/dma/stm32_dma.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/adc/stm32f1_adc.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/adc/stm32_adc.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/reset/stm32f0_1_3_reset.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/reset/stm32-common.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/dts/common/freq.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/modules/hal/stm32/dts/st/f1/stm32f103r(8-b)tx-pinctrl.dtsi \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/pinctrl/stm32f1-pinctrl.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl-common.h \
+ C:/Users/aryan/OneDrive/Desktop/FRL/Avionics/TEST_STM32/zephyr/include/zephyr/dt-bindings/pinctrl/stm32f1-afio.h
