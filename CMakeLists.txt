@@ -1,8 +1,8 @@
-cmake_minimum_required(3.13.1)
+cmake_minimum_required(VERSION 3.13.2)
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 
 project(TEST_STM32)
 
-set(BOARD stm43f103c8t6_blue_pill)
+set(BOARD stm32_min_dev_blue)
 
 target_sources(app PRIVATE src/main.c)
